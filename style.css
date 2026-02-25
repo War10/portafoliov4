@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+/*selector de TIPO (etiqueta): afectara todas las etiquetas de ese tipo*/
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+/*selector de CLASE: afectara a todas las etiquetas que tengan esa clase*/
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+   
+}
+/*Selector de tipo para los elementos li dentro del nav ul*/
+nav ul li{
+    display: inline-block;
+    margin-right:0 20px;
+}
+/*selector de tipo para los elementos a dentro del nav ul li*/
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*selector de tipo para los elementos section*/
+.proyecto-card{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
