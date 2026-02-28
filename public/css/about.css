@@ -1,0 +1,137 @@
+.about-page .desktop {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  padding: 20px 30px 40px;
+  position: relative;
+  background-color: var(--backgroundbackground-1);
+}
+
+.about-page .header {
+  display: flex;
+  max-width: 1440px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 80px;
+  position: relative;
+  width: 100%;
+  border-bottom: 0.5px solid var(--divdersdivider-1);
+  background-image: url("../img/image(6).png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-page .name {
+  width: 100px;
+  height: 100px;
+}
+
+.about-page .text-wrapper {
+  font-family: var(--link-font-family);
+  font-weight: var(--link-font-weight);
+  color: var(--textparagraph-1);
+  font-size: var(--link-font-size);
+  letter-spacing: var(--link-letter-spacing);
+  line-height: var(--link-line-height);
+  font-style: var(--link-font-style);
+}
+
+.about-page .frame {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  gap: 24px;
+  align-items: flex-start;
+  padding-top: 24px;
+}
+
+.about-page .contact-info {
+  width: 32%;
+  min-width: 280px;
+}
+
+.about-page .bio {
+  border-top: 1px solid var(--divdersdivider-1);
+  padding: 24px 0;
+}
+
+.about-page .bio .div {
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: var(--textparagraph-1);
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.about-page .frame-2 {
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-page .about-me-section {
+  border-top: 1px solid var(--divdersdivider-1);
+  padding-top: 24px;
+}
+
+.about-page .text-wrapper-2,
+.about-page .text-wrapper-3 {
+  font-family: var(--heading-3-font-family);
+  font-weight: var(--heading-3-font-weight);
+  color: var(--textparagraph-1);
+  font-size: var(--heading-3-font-size);
+  letter-spacing: var(--heading-3-letter-spacing);
+  line-height: var(--heading-3-line-height);
+  font-style: var(--heading-3-font-style);
+  margin-bottom: 16px;
+}
+
+.about-page .soy-antonio-edgar {
+  font-family: var(--paragraph-font-family);
+  font-weight: var(--paragraph-font-weight);
+  color: var(--textparagraph-1);
+  font-size: var(--paragraph-font-size);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  font-style: var(--paragraph-font-style);
+}
+
+.about-page .footer {
+  border-top: 0.5px solid var(--divdersdivider-1);
+  padding-top: 20px;
+}
+
+@media (max-width: 1024px) {
+  .about-page .frame {
+    flex-direction: column;
+  }
+
+  .about-page .contact-info,
+  .about-page .frame-2 {
+    width: 100%;
+  }
+
+  .about-page .contact-info {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-page .desktop {
+    padding: 16px;
+  }
+
+  .about-page .header {
+    padding-bottom: 40px;
+  }
+
+  .about-page .text-wrapper {
+    font-size: clamp(18px, 5vw, var(--link-font-size));
+  }
+}

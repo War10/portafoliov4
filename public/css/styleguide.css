@@ -1,0 +1,38 @@
+:root {
+  --backgroundbackground-1: rgba(0, 0, 0, 1);
+  --textparagraph-1: rgba(255, 255, 255, 1);
+  --textparagraph-2: rgba(171, 171, 171, 1);
+  --textlink: rgba(255, 255, 255, 1);
+  --divdersdivider-1: rgba(56, 56, 56, 1);
+  --accentaccent-1: rgba(0, 0, 0, 1);
+  --link-font-family: "Schibsted Grotesk", Helvetica;
+  --link-font-weight: 600;
+  --link-font-size: 24px;
+  --link-letter-spacing: -0.48px;
+  --link-line-height: 129.99999523162842%;
+  --link-font-style: normal;
+  --paragraph-font-family: "Schibsted Grotesk", Helvetica;
+  --paragraph-font-weight: 400;
+  --paragraph-font-size: 15px;
+  --paragraph-letter-spacing: -0.15px;
+  --paragraph-line-height: 139.9999976158142%;
+  --paragraph-font-style: normal;
+  --heading-3-font-family: "Schibsted Grotesk", Helvetica;
+  --heading-3-font-weight: 600;
+  --heading-3-font-size: 13px;
+  --heading-3-letter-spacing: -0.065px;
+  --heading-3-line-height: 129.99999523162842%;
+  --heading-3-font-style: normal;
+  --heading-2-font-family: "Schibsted Grotesk", Helvetica;
+  --heading-2-font-weight: 600;
+  --heading-2-font-size: 16px;
+  --heading-2-letter-spacing: -0.16px;
+  --heading-2-line-height: 129.99999523162842%;
+  --heading-2-font-style: normal;
+  --paragraph-list-font-family: "Geist", Helvetica;
+  --paragraph-list-font-weight: 400;
+  --paragraph-list-font-size: 15px;
+  --paragraph-list-letter-spacing: -0.075px;
+  --paragraph-list-line-height: 139.9999976158142%;
+  --paragraph-list-font-style: normal;
+}
