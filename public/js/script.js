@@ -87,12 +87,12 @@
 
   const temas = {
     claro: {
-      "--backgroundbackground-1": "#f7f8fa",
-      "--accentaccent-1": "#ffffff",
-      "--textparagraph-1": "#1f2937",
-      "--textparagraph-2": "#4b5563",
-      "--divdersdivider-1": "#d1d5db",
-      "--textlink": "#111827"
+      "--backgroundbackground-1": "#000000",
+      "--accentaccent-1": "#000000",
+      "--textparagraph-1": "#ffffff",
+      "--textparagraph-2": "#ababab",
+      "--divdersdivider-1": "#383838",
+      "--textlink": "#ffffff"
     },
     azul: {
       "--backgroundbackground-1": "#0b2e57",
